@@ -7,6 +7,7 @@ import ClientSearch from './pages/ClientSearch';
 import SignInLanding from './pages/SignInLanding';
 import SignInClient from './pages/SignInClient';
 import SignInCompany from './pages/SignInCompany';
+import FilterCompanies from './pages/FilterCompanies';
 
 export default function Routes() {
   return (
@@ -18,6 +19,7 @@ export default function Routes() {
         <Route path="/signinCompany" component={SignInCompany} />
         <Route path="/signinClient" component={SignInClient} />
         <Route path="/search" component={ClientSearch} />
+        <Route path="/filter" component={FilterCompanies} />
       </Switch>
     </BrowserRouter>
   );
