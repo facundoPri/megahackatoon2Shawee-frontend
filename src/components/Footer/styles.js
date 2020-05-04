@@ -4,8 +4,9 @@ export const Container = styled.div`
   height: 172px;
   opacity: 0.81;
   background-color: #4bc58c;
+  opacity: 0.81;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0 150px;
   align-items: center;
 `;
@@ -39,7 +40,7 @@ export const Left = styled.div`
 
 export const Rigth = styled.div`
   p {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     font-size: 20px;
     font-weight: 600;
     font-stretch: normal;
@@ -59,5 +60,6 @@ export const Rigth = styled.div`
     height: 31.9px;
     border: 1px solid #fff;
     text-align: center;
+    margin-left: 10px;
   }
 `;

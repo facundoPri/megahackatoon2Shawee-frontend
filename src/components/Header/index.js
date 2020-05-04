@@ -14,15 +14,23 @@ function components() {
     <Container>
       <Content>
         <logo>
-          <h1>LOGO</h1>
+          <Link to="/">
+            <h1>LOGO</h1>
+          </Link>
         </logo>
-        <nav>
-          <Link to="/">HOME</Link>
-        </nav>
         <RegisterSeccion>
           <aside>
-            <LoginBtn>Login</LoginBtn>
-            <SigninBtn>Cadastre-se</SigninBtn>
+            <Link to="/login">
+              <LoginBtn>
+                <p>Login</p>
+              </LoginBtn>
+            </Link>
+
+            <Link to="/signin">
+              <SigninBtn>
+                <p>Cadastre-se</p>
+              </SigninBtn>
+            </Link>
           </aside>
         </RegisterSeccion>
       </Content>
