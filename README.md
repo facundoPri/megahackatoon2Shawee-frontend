@@ -7,7 +7,6 @@
 A LEAD TEXTEL é uma plataforma que conecta as empresas da area de moda com seus diversos clientes concentrando todas as empresas da industria textil em um so lugar, possibilita assim uma maior integração do cliente e a empresa
 </p>
 
-
 ##
 
 ## Getting Started
@@ -21,6 +20,8 @@ git clone https://github.com/facundoPri/megahackatoon2Shawee-frontend.git
 * [React.js](https://es.reactjs.org/)
 * [styled-components](https://styled-components.com/)
 
+## Hosted
+* [LEAD TEXTIL](https://lead-textil.netlify.app)
 
 ## Authors
 
