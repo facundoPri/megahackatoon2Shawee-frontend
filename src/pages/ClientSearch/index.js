@@ -131,7 +131,7 @@ function ClientSearch() {
             </form>
           </StarsDiv>
         </Inputs>
-        <Link to="filter">
+        <Link to="/filter">
           <button type="submit">
             <p>Buscar empresa</p>
           </button>

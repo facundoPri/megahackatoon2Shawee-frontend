@@ -139,13 +139,13 @@ function ClientSearch() {
           </StarsDiv>
         </Inputs>
         <Buttons>
-          <Link to="search">
+          <Link to="/budget">
             <button className="blue" type="submit">
               <p>Solicitar Orçamento</p>
               <FaShoppingCart color="#fff" size={40} />
             </button>
           </Link>
-          <button className="black" type="submit">
+          <button className="black" type="button">
             <p>Marcar Todas Empresas</p>
             <FaRegCheckCircle color="#fff" size={40} />
           </button>
@@ -398,13 +398,13 @@ function ClientSearch() {
       </CompaniesList>
       <Form>
         <Buttons>
-          <Link to="search">
+          <Link to="/budget">
             <button className="blue" type="submit">
               <p>Solicitar Orçamento</p>
               <FaShoppingCart color="#fff" size={40} />
             </button>
           </Link>
-          <button className="black" type="submit">
+          <button className="black" type="button">
             <p>Marcar Todas Empresas</p>
             <FaRegCheckCircle color="#fff" size={40} />
           </button>
