@@ -6,7 +6,7 @@ import {
   TiSocialYoutube,
 } from 'react-icons/ti';
 
-// import { Link } from 'react-router-dom';
+import Logo from '../../assets/Pit.png';
 
 import { Container, Left, Rigth } from './styles';
 
@@ -15,7 +15,7 @@ function components() {
     <>
       <Container>
         <Left>
-          <logo>LOGO</logo>
+          <img src={Logo} alt="Logo" height={100} />
           <p> © 2020 - NAME All Right Reserved</p>
         </Left>
         <Rigth>

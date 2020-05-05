@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Logo from '../../assets/Pit.png';
+
 import {
   Container,
   Content,
@@ -15,7 +17,7 @@ function components() {
       <Content>
         <logo>
           <Link to="/">
-            <h1>LOGO</h1>
+            <img src={Logo} alt="Logo" height={100} />
           </Link>
         </logo>
         <RegisterSeccion>
